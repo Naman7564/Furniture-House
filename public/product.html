@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Walnut Velvet Sofa | Furniture House</title>
+    <meta name="description" content="Premium modern walnut brown velvet sofa. Transform your space with timeless design and luxurious comfort.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@400;600;700&family=Noto+Sans+Devanagari:wght@400;600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Phosphor Icons -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="product.css">
+</head>
+<body class="light-theme">
+    <!-- Top Header / Navbar (Light Version) -->
+    <header class="header light-header">
+        <div class="header-container">
+            <div class="logo-area">
+                <i class="ph ph-armchair logo-icon"></i>
+                <div class="logo-text">
+                    <h1>Furniture <span>House</span></h1>
+                </div>
+            </div>
+            
+            <nav class="navbar">
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#" class="active">Shop</a></li>
+                    <li><a href="#">Categories</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            
+            <div class="header-icons">
+                <button class="icon-btn"><i class="ph ph-magnifying-glass"></i></button>
+                <button class="icon-btn"><i class="ph ph-heart"></i></button>
+                <button class="icon-btn cart-btn">
+                    <i class="ph ph-shopping-cart"></i>
+                    <span class="cart-count">0</span>
+                </button>
+                <div class="mobile-toggle"><i class="ph ph-list"></i></div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Product Hero Section -->
+    <main class="product-hero">
+        <div class="container product-grid">
+            
+            <!-- Gallery Section -->
+            <div class="product-gallery">
+                <div class="main-image-container">
+                    <div class="badge-new">New Arrival</div>
+                    <img src="images/product_main.png" alt="Walnut Brown Velvet Sofa" class="main-image" id="mainImage">
+                </div>
+                <div class="thumbnail-list">
+                    <div class="thumbnail active" data-src="images/product_main.png">
+                        <img src="images/product_main.png" alt="Front View">
+                    </div>
+                    <div class="thumbnail" data-src="images/product_thumb1.png">
+                        <img src="images/product_thumb1.png" alt="Texture Detail">
+                    </div>
+                    <div class="thumbnail" data-src="images/product_thumb2.png">
+                        <img src="images/product_thumb2.png" alt="Legs Detail">
+                    </div>
+                    <div class="thumbnail" data-src="images/product_lifestyle.png">
+                        <img src="images/product_lifestyle.png" alt="Lifestyle View">
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Product Details Section -->
+            <div class="product-details">
+                <div class="breadcrumbs">
+                    <a href="index.html">Home</a> <i class="ph ph-caret-right"></i>
+                    <a href="#">Living Room</a> <i class="ph ph-caret-right"></i>
+                    <a href="#">Sofas</a> <i class="ph ph-caret-right"></i>
+                    <span>Modern Walnut Sofa</span>
+                </div>
+                
+                <h1 class="product-title">Nordic Elegance Walnut Velvet Sofa</h1>
+                
+                <div class="reviews-summary">
+                    <div class="stars">
+                        <i class="ph-fill ph-star"></i>
+                        <i class="ph-fill ph-star"></i>
+                        <i class="ph-fill ph-star"></i>
+                        <i class="ph-fill ph-star"></i>
+                        <i class="ph-half ph-star-half"></i>
+                    </div>
+                    <a href="#reviews" class="review-link">4.8 (124 reviews)</a>
+                </div>
+                
+                <div class="price-section">
+                    <span class="current-price">₹45,999</span>
+                    <span class="original-price">₹65,000</span>
+                    <span class="discount-badge">Save 30%</span>
+                </div>
+                
+                <div class="financing-info">
+                    <i class="ph ph-credit-card"></i>
+                    <span>EMI starts at ₹2,165/mo. <a href="#">View Plans</a></span>
+                </div>
+                
+                <p class="product-short-desc">
+                    Elevate your living space with this luxurious walnut brown velvet sofa. Featuring premium high-density foam, sustainable wooden frames, and an ergonomic design for unparalleled comfort and timeless Scandinavian aesthetics.
+                </p>
+                
+                <div class="selector-group">
+                    <h4 class="selector-label">Color: <span id="colorName">Walnut Brown</span></h4>
+                    <div class="color-options">
+                        <button class="color-swatch active" style="background-color: #5C4033;" data-color="Walnut Brown"></button>
+                        <button class="color-swatch" style="background-color: #D2B48C;" data-color="Beige"></button>
+                        <button class="color-swatch" style="background-color: #2F4F4F;" data-color="Charcoal"></button>
+                        <button class="color-swatch" style="background-color: #F5F5DC;" data-color="Cream"></button>
+                    </div>
+                </div>
+                
+                <div class="action-row">
+                    <div class="quantity-selector">
+                        <button class="qty-btn minus"><i class="ph ph-minus"></i></button>
+                        <input type="number" value="1" min="1" max="10" class="qty-input">
+                        <button class="qty-btn plus"><i class="ph ph-plus"></i></button>
+                    </div>
+                    <button class="btn btn-primary add-to-cart-btn">
+                        <i class="ph ph-shopping-bag"></i> Add to Cart
+                    </button>
+                </div>
+                <button class="btn btn-solid-dark buy-now-btn">Buy Now</button>
+                
+                <div class="delivery-highlights">
+                    <div class="highlight-item">
+                        <i class="ph ph-truck"></i>
+                        <span>Dispatches in 2-3 days</span>
+                    </div>
+                    <div class="highlight-item">
+                        <i class="ph ph-shield-check"></i>
+                        <span>5-Year Frame Warranty</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Trust / Features Strip -->
+    <section class="trust-strip">
+        <div class="container trust-grid">
+            <div class="trust-item">
+                <i class="ph ph-truck"></i>
+                <h4>Free Delivery</h4>
+                <p>On all orders above ₹10k</p>
+            </div>
+            <div class="trust-item">
+                <i class="ph ph-lock-key"></i>
+                <h4>Secure Payments</h4>
+                <p>100% encrypted checkout</p>
+            </div>
+            <div class="trust-item">
+                <i class="ph ph-arrows-counter-clockwise"></i>
+                <h4>Easy Returns</h4>
+                <p>30-day return policy</p>
+            </div>
+            <div class="trust-item">
+                <i class="ph ph-medal"></i>
+                <h4>5-Year Warranty</h4>
+                <p>On all wooden frames</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Features (Cards) -->
+    <section class="features-section bg-cream">
+        <div class="container">
+            <div class="section-title text-center">
+                <h2>Crafted for Perfection</h2>
+                <p>Discover what makes our furniture stand out</p>
+            </div>
+            
+            <div class="feature-cards-grid">
+                <div class="feature-card">
+                    <div class="icon-wrap"><i class="ph ph-tree-evergreen"></i></div>
+                    <h3>Premium Quality Wood</h3>
+                    <p>Sustainably sourced, kiln-dried solid wood for lasting durability.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="icon-wrap"><i class="ph ph-scissors"></i></div>
+                    <h3>Modern Craftsmanship</h3>
+                    <p>Hand-stitched details with precision and contemporary styling.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="icon-wrap"><i class="ph ph-leaf"></i></div>
+                    <h3>Eco-Friendly Materials</h3>
+                    <p>Non-toxic finishes and environmentally responsible fabrics.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="icon-wrap"><i class="ph ph-wrench"></i></div>
+                    <h3>Easy Installation</h3>
+                    <p>Comes with white-glove delivery and free assembly at your home.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lifestyle Banner -->
+    <section class="lifestyle-banner">
+        <div class="lifestyle-bg">
+            <img src="images/product_lifestyle.png" alt="Lifestyle Interior">
+            <div class="overlay-gradient"></div>
+        </div>
+        <div class="lifestyle-content">
+            <h2>Transform Your Space with Timeless Design</h2>
+            <p>Experience the perfect harmony of aesthetics and comfort.</p>
+        </div>
+    </section>
+
+    <!-- Tabs Section -->
+    <section class="tabs-section">
+        <div class="container">
+            <div class="tabs-header">
+                <button class="tab-btn active" data-tab="desc">Description</button>
+                <button class="tab-btn" data-tab="specs">Specifications</button>
+                <button class="tab-btn" data-tab="care">Care Instructions</button>
+                <button class="tab-btn" data-tab="shipping">Shipping & Returns</button>
+            </div>
+            
+            <div class="tab-content active" id="tab-desc">
+                <p>The Nordic Elegance sofa brings a touch of modern luxury to any living space. Upholstered in premium, stain-resistant velvet, it features deep, plush seating designed for ultimate relaxation. The sleek, low-profile silhouette is supported by sturdy, tapered solid wood legs, making it a perfect centerpiece for both contemporary and classic interiors.</p>
+            </div>
+            
+            <div class="tab-content" id="tab-specs">
+                <ul class="specs-list">
+                    <li><strong>Dimensions:</strong> 84" W x 36" D x 32" H</li>
+                    <li><strong>Seat Height:</strong> 18"</li>
+                    <li><strong>Material:</strong> 100% Polyester Velvet, Solid Oak Frame</li>
+                    <li><strong>Fill Material:</strong> High-Resilience Polyurethane Foam with Dacron wrap</li>
+                    <li><strong>Weight Capacity:</strong> 350 kg</li>
+                </ul>
+            </div>
+            
+            <div class="tab-content" id="tab-care">
+                <p>Vacuum regularly with a soft brush attachment. For spills, blot immediately with a clean, dry cloth. Avoid direct sunlight to prevent fading. Professional cleaning recommended for tough stains.</p>
+            </div>
+            
+            <div class="tab-content" id="tab-shipping">
+                <p>Free standard shipping on all orders. White-glove delivery available at checkout. Returns are accepted within 30 days of delivery in original condition. A 10% restocking fee may apply.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Related Products -->
+    <section class="related-products bg-cream">
+        <div class="container">
+            <div class="section-title">
+                <h2>Complete the Look</h2>
+            </div>
+            
+            <div class="product-carousel">
+                <!-- Card 1 -->
+                <div class="prod-card">
+                    <div class="img-container">
+                        <img src="images/sofa_set.png" alt="Sofa">
+                        <button class="quick-add"><i class="ph ph-shopping-bag"></i></button>
+                    </div>
+                    <div class="prod-info">
+                        <h4>L-Shape Corner Sofa</h4>
+                        <div class="stars"><i class="ph-fill ph-star"></i> 4.5</div>
+                        <span class="price">₹54,000</span>
+                    </div>
+                </div>
+                <!-- Card 2 -->
+                <div class="prod-card">
+                    <div class="img-container">
+                        <img src="images/bedroom_furniture.png" alt="Bed">
+                        <button class="quick-add"><i class="ph ph-shopping-bag"></i></button>
+                    </div>
+                    <div class="prod-info">
+                        <h4>King Size Platform Bed</h4>
+                        <div class="stars"><i class="ph-fill ph-star"></i> 4.9</div>
+                        <span class="price">₹32,500</span>
+                    </div>
+                </div>
+                <!-- Card 3 -->
+                <div class="prod-card">
+                    <div class="img-container">
+                        <img src="images/office_furniture.png" alt="Office Desk">
+                        <button class="quick-add"><i class="ph ph-shopping-bag"></i></button>
+                    </div>
+                    <div class="prod-info">
+                        <h4>Executive Desk</h4>
+                        <div class="stars"><i class="ph-fill ph-star"></i> 4.7</div>
+                        <span class="price">₹18,999</span>
+                    </div>
+                </div>
+                <!-- Card 4 -->
+                <div class="prod-card">
+                    <div class="img-container">
+                        <img src="images/storage_furniture.png" alt="Wardrobe">
+                        <button class="quick-add"><i class="ph ph-shopping-bag"></i></button>
+                    </div>
+                    <div class="prod-info">
+                        <h4>Minimalist Wardrobe</h4>
+                        <div class="stars"><i class="ph-fill ph-star"></i> 4.6</div>
+                        <span class="price">₹41,000</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Customer Reviews -->
+    <section class="reviews-section" id="reviews">
+        <div class="container">
+            <div class="section-title">
+                <h2>Customer Reviews</h2>
+                <div class="overall-rating">
+                    <span class="big-score">4.8</span>
+                    <div class="stars"><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-half ph-star-half"></i></div>
+                    <span class="review-count">Based on 124 reviews</span>
+                </div>
+            </div>
+            
+            <div class="reviews-grid">
+                <div class="review-card">
+                    <div class="rev-header">
+                        <div class="rev-author">
+                            <strong>Priya S.</strong>
+                            <span class="verified"><i class="ph-fill ph-check-circle"></i> Verified Buyer</span>
+                        </div>
+                        <div class="stars"><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i></div>
+                    </div>
+                    <h4>Absolutely Beautiful!</h4>
+                    <p>The velvet is incredibly soft and the walnut color is so rich. It completely transformed my living room. Delivery was smooth and assembly was quick.</p>
+                </div>
+                <div class="review-card">
+                    <div class="rev-header">
+                        <div class="rev-author">
+                            <strong>Rahul M.</strong>
+                            <span class="verified"><i class="ph-fill ph-check-circle"></i> Verified Buyer</span>
+                        </div>
+                        <div class="stars"><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i></div>
+                    </div>
+                    <h4>Premium quality at a great price</h4>
+                    <p>Looks much more expensive than it is. Very sturdy frame and comfortable seating. Highly recommend Furniture House!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="newsletter-section">
+        <div class="container">
+            <div class="newsletter-box">
+                <div class="nl-text">
+                    <h2>Join Our Inner Circle</h2>
+                    <p>Get exclusive offers, design inspiration, and first access to latest furniture collections.</p>
+                </div>
+                <form class="nl-form">
+                    <input type="email" placeholder="Enter your email address" required>
+                    <button type="submit" class="btn btn-solid-dark">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer light-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="ft-brand">
+                    <h2>Furniture House</h2>
+                    <p>Premium furniture for modern Indian homes.</p>
+                    <div class="socials">
+                        <a href="#"><i class="ph ph-instagram-logo"></i></a>
+                        <a href="#"><i class="ph ph-facebook-logo"></i></a>
+                        <a href="#"><i class="ph ph-twitter-logo"></i></a>
+                    </div>
+                </div>
+                <div class="ft-links">
+                    <h4>Shop</h4>
+                    <a href="#">Living Room</a>
+                    <a href="#">Bedroom</a>
+                    <a href="#">Dining</a>
+                    <a href="#">Office</a>
+                </div>
+                <div class="ft-links">
+                    <h4>Support</h4>
+                    <a href="#">Track Order</a>
+                    <a href="#">Returns</a>
+                    <a href="#">FAQ</a>
+                    <a href="#">Contact Us</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Furniture House. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="product.js"></script>
+</body>
+</html>
